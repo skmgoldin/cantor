@@ -1,0 +1,6 @@
+*.o
+server
+client
+credentials.txt
+log.txt
+clientlistener
