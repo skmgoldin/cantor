@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../sharedcode/wireio.h"
+#include "sharedcode/wireio.h"
 #include "candleclient.h"
-#include "../sharedcode/globalvalues.h"
+#include "sharedcode/globalvalues.h"
 #include <string.h>
-#include "../sharedcode/candlemsg.h"
-#include "../sharedcode/servertools.h"
+#include "sharedcode/candlemsg.h"
+#include "sharedcode/servertools.h"
 #include <unistd.h>
 #include <signal.h>
 #include <arpa/inet.h>
-#include "../sharedcode/sockdata.h"
+#include "sharedcode/sockdata.h"
 #include <sys/socket.h>
 #include <netdb.h>
 #include <sys/wait.h>
-#include "../sharedcode/userlist.h"
+#include "sharedcode/userlist.h"
 
 static char *servip;
 static char *servport;

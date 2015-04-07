@@ -1,7 +1,7 @@
 #ifndef CANDLECLIENT_H
 #define CANDLECLIENT_H
 
-#include "../sharedcode/userlist.h"
+#include "sharedcode/userlist.h"
 
 int login(char *servip, char *servport);
 

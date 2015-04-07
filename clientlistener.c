@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "../sharedcode/servertools.h"
-#include "../sharedcode/wireio.h"
-#include "../sharedcode/conninfo.h"
-#include "../sharedcode/candlemsg.h"
+#include "sharedcode/servertools.h"
+#include "sharedcode/wireio.h"
+#include "sharedcode/conninfo.h"
+#include "sharedcode/candlemsg.h"
 #include <stdlib.h>
-#include "../sharedcode/globalvalues.h"
+#include "sharedcode/globalvalues.h"
 #include <string.h>
 
 int main(int argc, char **argv) {
